@@ -18,6 +18,10 @@ def banana(z)
   end
 end
 
+def abc(y)
+  y.sort
+end
+
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 print_list(grocery_list)
 
@@ -28,7 +32,12 @@ puts count(grocery_list)
 
 puts banana(grocery_list)
 
+puts "Second item = " + grocery_list[1]
 
+puts abc (grocery_list)
+
+grocery_list.delete_at(3)
+print_list(grocery_list)
 
 
 
