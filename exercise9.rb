@@ -4,7 +4,10 @@ def print_list(paul)
   paul.each do |item|
     puts "* " + item
   end
+end
 
+def count(x)
+  x.count
 end
 
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
@@ -12,6 +15,9 @@ print_list(grocery_list)
 
 grocery_list << "rice"
 print_list(grocery_list)
+
+
+puts count(grocery_list)
 
 
 # def print_list(grocery_list)
